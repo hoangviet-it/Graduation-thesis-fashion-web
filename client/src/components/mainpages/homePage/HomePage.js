@@ -332,6 +332,9 @@ export default function HomePage() {
                             if(index<=3) {
                                 return <ProductItem key={product._id} product={product} />
                             }
+                            else {
+                                return ''
+                            }
                         })
                     }
                 </div>
