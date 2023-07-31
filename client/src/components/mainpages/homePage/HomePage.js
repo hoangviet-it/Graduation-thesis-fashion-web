@@ -108,7 +108,9 @@ export default function HomePage() {
 
     //get dữ liệu image slide
     useEffect(()=>{
-        notify.forEach(el=>{
+        var data = JSON.stringify([...notify])
+        data = JSON.parse(data)
+        data.forEach(el=>{
             if(el._id==='635cd52464f5b7334c594007'){
                 setSlide1(el.imagesSlide1)
                 setSlide2(el.imagesSlide2)
