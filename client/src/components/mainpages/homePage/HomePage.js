@@ -328,14 +328,14 @@ export default function HomePage() {
 
                 <div className="new-product-hp" style={!NewAnDiscPro?{display:'flex'}:{display:'none'}}>
                     {
+                        products.length!==0?
                         products.map((product, index) =>{
                             if(index<=3) {
                                 return <ProductItem key={product._id} product={product} />
                             }
-                            else {
-                                return ''
-                            }
                         })
+                        :
+                        null
                     }
                 </div>
 
