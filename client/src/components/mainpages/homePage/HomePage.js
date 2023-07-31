@@ -120,10 +120,7 @@ export default function HomePage() {
     // đưa sản phẩm khuyến mãi từ products vào mảng discount
     useEffect(() =>{
         const handle = ()=>{
-            const fromDb = undefined
-            productsAll = fromDb || []
-
-            const disC = productsAll.filter((pro) =>{
+            const disC = (productsAll || []).filter((pro) =>{
                 return (pro.discount>0)
             })
             setDiscount(disC)
