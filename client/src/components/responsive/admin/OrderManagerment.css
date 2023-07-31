@@ -1,0 +1,205 @@
+@media only screen and (max-width: 1450px) {
+    .fillter-day-update-list-pack {
+        position: unset;
+        margin-top: 15px;
+    }
+
+    .createPro-and-title h5 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1340px) {
+    .btn-list-need-pack {
+        position: unset;
+        margin: 10px 10px 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 1171px) {
+    .container-ord-mana-ad,
+    .filter-status-ord-ad {
+        margin-left: 20px;
+    }
+
+    .btn-update-list-delivery {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .btn-update-stt-delivering,
+    .btn-export-excel-ad,
+    .btn-back-orders-listAll-ad {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container-list-order-mana-ad {
+        margin-left: -20%;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container-ord-mana-ad table tr td,
+    .container-ord-mana-ad table tr th {
+        padding: 10px 10px;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .btn-list-need-pack {
+        position: unset;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .btn-detail-order-ad {
+        display: inline-block;
+        margin-bottom: 5px;
+        padding: 2px 6px 6px 6px;
+    }
+
+    .container-ord-mana-ad table {
+        width: 100%;
+    }
+
+    .address-list-delivering,
+    .col-address-list-deli {
+        width: 100px;
+    }
+
+    .btn-update-list-delivery {
+        margin-left: 0;
+        width: 100px;
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .btn-update-stt-delivering,
+    .btn-export-excel-ad,
+    .btn-back-orders-listAll-ad {
+        margin-top: 80px;
+    }
+
+    .btn-search-ord-user {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .filter-status-ord-ad select {
+        margin: 10px 5px;
+        margin-left: 0;
+    }
+
+    .btn-list-need-pack {
+        font-size: 0.9rem;
+    }
+
+    .options-list-delivery {
+        display: block;
+        
+    }
+
+    .th-list-delivery-res {
+        display: none;
+    }
+
+    .btn-back-list-delivery-res {
+        top: 20px;
+    }
+
+    .col-address-list-deli,
+    .btn-update-list-delivery {
+        margin: 0 auto;
+    }
+
+    .col-address-list-deli {
+        width: auto;
+    }
+
+    .address-list-delivering {
+        white-space: unset;
+        overflow: unset;
+        width: auto;
+    }
+
+    .th-table-respon-deli {
+        display: inline-block;
+        font-weight: 500;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .btn-update-stt-delivering,
+    .btn-export-excel-ad,
+    .btn-back-orders-listAll-ad {
+        top: 20px;
+        right: auto;
+    }
+
+    .btn-export-excel-ad {
+        left: 150px;
+    }
+
+    .btn-back-orders-listAll-ad {
+        right: 20px;
+    }
+
+    .fillter-day-update-list-pack {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container-ord-mana-ad table tr th {
+        display: none;
+    }
+
+    .container-ord-mana-ad table tr td {
+        display: block;
+    }
+
+    .th-tablel-res-ord {
+        display: inline-block;
+        font-weight: 500;
+        padding-right: 10px;
+    }
+
+    .list-need-pack-ordAd h5 {
+        font-size: 0.9rem;
+    }
+
+    .btn-back-orders-listAll-ad {
+        position: absolute;
+        right: 20px;
+    }
+
+    .searchUserOrd {
+        display: block;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 366px) {
+    .btn-back-list-pick {
+        top: 140px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .update-status-ord-ad {
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+
+    .list-need-pack-ordAd h5 {
+        margin-top: 40px;
+    }
+}

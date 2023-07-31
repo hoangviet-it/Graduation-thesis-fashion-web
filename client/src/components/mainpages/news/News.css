@@ -1,0 +1,125 @@
+.container-news-page {
+    max-width: 1170px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.container-news-page a {
+    text-decoration: none;
+}
+
+.wrap-news-page {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.list-news-page-left {
+    width: 65%;
+    box-shadow: 0px 0px 6px #bbb;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.news-item {
+    width: 100%;
+    /* height: 150px; */
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.news-item .img-avt-news {
+    width: 230px;
+    height: 150px;
+    object-fit: contain;
+    background-color: #eee;
+}
+
+.infor-news {
+    flex: 1;
+    margin-left: 25px;
+    margin-left: 15px;
+}
+
+.icon-view-news {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 5px;
+}
+
+.title-news {
+    cursor: pointer;
+    font-weight: bold;
+    color: #555;
+}
+
+.title-news:hover {
+    color: #999;
+}
+
+.desc-news {
+    margin-top: 10px;
+    font-style: italic;
+    width: 490px;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #FF3366;
+    font-style: italic;
+    font-weight: 500;
+    position: absolute;
+    top: 123px;
+    left: 255px;
+}
+
+.list-news-view-many {
+    width: 35%;
+    margin-left: 30px;
+    padding: 15px 20px;
+    box-shadow: 0px 0px 6px #bbb;
+    border-radius: 5px;
+}
+
+.item-view-many-right {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-view-many-right .img-avt-newsMany-view {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.item-infor-news-Many {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.title-news-many {
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+}
+
+.title-news-many:hover {
+    color: #999;
+}
+
+.notify-not-found-news {
+    margin-left: 50%;
+    transform: translateX(-30%);
+    font-size: 1.3rem;
+    font-weight: 500;
+}

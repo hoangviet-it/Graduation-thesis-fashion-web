@@ -1,0 +1,126 @@
+:root {
+    --color-main: #7ec522;
+}
+
+.container-order {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.container-order form {
+    box-shadow: 0px 0px 6px #aaa;
+    border-radius: 5px;
+    flex: 1;
+    padding: 20px;
+}
+
+.row-infor-order {
+    margin: 10px 0;
+}
+
+.row-infor-order input {
+    outline: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    padding-left: 10px;
+}
+
+.row-infor-order input:focus {
+    border: 2px solid var(--color-main);
+    background-color: rgb(248, 247, 247);
+}
+
+.row-infor-order textarea {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.row-infor-order label span {
+    color: red;
+}
+
+.infor-pro-order {
+    box-shadow: 0px 0px 6px #aaa;
+    width: 450px;
+    padding: 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.total-item-order {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.wrap-btnUpdate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap-btnUpdate a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3399FF;
+    border-radius: 5px;
+    line-height: 40px;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.wrap-btnUpdate a:hover {
+    color: #fff;
+    background-color: #308be7;
+    transition: linear 0.2s;
+}
+
+.title-pro-ord-inf {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.multi {
+    text-transform: none;
+    font-weight: normal;
+}
+
+.tt-order-inf {
+    color: #000077;
+    font-weight: 500;
+}
+
+.pay-radio {
+    margin-bottom: 10px;
+}
+
+.pay-radio span {
+    margin-left: 5px;
+}
+
+.money-ord {
+    color: red;
+    font-weight: 700;
+}
+
+.infor-pro-order button {
+    background-color: #FF6600;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.infor-pro-order button:hover {
+    background-color: #de5a01;
+}

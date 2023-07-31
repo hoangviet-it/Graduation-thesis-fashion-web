@@ -1,0 +1,13 @@
+
+.container-not-found {
+    max-width: 1170px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container-not-found img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}

@@ -1,0 +1,67 @@
+@media only screen and (max-width: 1169px) {
+    .infor,
+    .icon-mxh {
+        width: 100%;
+        padding: 0 20px;
+        font-size: 0.8rem;
+    }
+
+    .infor {
+        padding-top: 20px;
+    }
+
+    .input-register-acc input {
+        height: 35px;
+    }
+
+    .input-register-acc button {
+        padding: 3px 10px 5px 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .input-register-acc input {
+        height: 35px;
+        width: 200px;
+    }
+
+    .input-register-acc button {
+        padding: 3px 10px 6px 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .infor h5,
+    .input-register-acc label,
+    .input-register-acc button {
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        margin-top: 70px;
+    }
+
+    .infor {
+        flex-wrap: wrap;
+    }
+
+    .icon-mxh {
+        justify-content: space-around;
+    }
+
+    .icon-footer {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    .input-register-acc input {
+        height: 30px;
+        display: block;
+    }
+
+    .input-register-acc button {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+}

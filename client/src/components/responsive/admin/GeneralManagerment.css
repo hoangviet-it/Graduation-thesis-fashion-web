@@ -1,0 +1,35 @@
+@media only screen and (max-width: 992px) {
+    .container-general-ad {
+        margin-left: -20%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .btn-update-intro {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    .btn-update-intro {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .btn-update-intro {
+        margin-top: 120px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .btn-update-intro {
+        margin-top: 140px;
+    }
+}
+
+@media only screen and (max-width: 285px) {
+    .btn-update-intro {
+        margin-top: 170px;
+    }
+}

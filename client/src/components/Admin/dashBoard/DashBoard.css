@@ -1,0 +1,145 @@
+:root {
+    --color-main: #7ec522;
+}
+
+.wrap-dashboard-ad {
+    height: 100vh;
+}
+
+.container-dashboard-ad {
+    margin: 0 20px;
+}
+
+.report-all-ad {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.item-report-all-ad {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px #888;
+    display: flex;
+}
+
+.inf-turnover-db-ad,
+.inf-order-db-ad,
+.inf-pro-db-ad,
+.inf-user-db-ad {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 30px 0 10px 0;
+}
+
+.inf-order-db-ad {
+    padding: 20px;
+    padding-top: 5px;
+    font-size: 0.95rem;
+}
+
+.icon-turnover-db-ad,
+.icon-order-db-ad,
+.icon-pro-db-ad,
+.icon-user-db-ad {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.inf-turnover-db-ad {
+    width: 60%;
+    background-color: #716cb0;
+}
+
+.icon-turnover-db-ad {
+    width: 40%;
+    background-color: #8d89c0;
+}
+
+.inf-order-db-ad {
+    width: 60%;
+    background-color: #3bc0c3;
+}
+
+.icon-order-db-ad {
+    width: 40%;
+    background-color: #62cdcf;
+}
+
+.inf-pro-db-ad {
+    width: 60%;
+    background-color: var(--color-main);
+}
+
+.icon-pro-db-ad {
+    width: 40%;
+    background-color: #9fd855;
+}
+
+.inf-user-db-ad {
+    width: 60%;
+    background-color: #33b0e0;
+}
+
+.icon-user-db-ad {
+    width: 40%;
+    background-color: #5cc0e6;;
+}
+
+.img-icon-dashboard {
+    filter: brightness(1) invert(1);
+    width: 40px;
+    height: 40px;
+}
+
+.icon-turnover-db-ad p,
+.icon-order-db-ad p,
+.icon-pro-db-ad p,
+.icon-user-db-ad p {
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.inf-turnover-db-ad p,
+.inf-pro-db-ad p,
+.inf-user-db-ad p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.inf-order-db-ad p {
+    margin: 2px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.wrap-chart {
+    display: flex;
+}
+
+.chart {
+    margin-top: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60%;
+}
+
+.chartCircle {
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.bg-not-admin img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}

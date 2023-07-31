@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1376px) {
+    .createPro-and-title h5 {
+        display: none;
+    }
+
+    .createPro-and-title input {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .collum-table-mana-pro img {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .header-ad-left input {
+        width: 300px;
+    }
+
+    .element-create {
+        flex-wrap: wrap;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .createPro-and-title h5 {
+        display: none;
+    }
+
+    .container-promana {
+        margin-left: 20px;
+    }
+
+    .collum-table-mana-pro img {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container-promana {
+        margin-left: -20%;
+        margin-right: 20px;
+        width: auto;
+    }
+
+    .Btn-list-discounting {
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .collum-table-mana-pro {
+        display: block;
+        border: unset;
+        text-align: left;
+        padding: 10px 0;
+        padding-left: 20px;
+    }
+
+    .title-pro-listmana {
+        margin-left: 0;
+    }
+
+    .container-promana table th {
+        display: none;
+    }
+
+    .th-table-respon {
+        display: inline-block;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .collum-table-mana-pro p {
+        margin-bottom: 0;
+        overflow: unset;
+        white-space:unset;
+    }
+
+    .filter-pro-ad {
+        margin-bottom: 10px;
+    }
+
+    .Btn-list-discounting {
+       display: none;
+    }
+    
+    .input-search-pro {
+        display: none;
+    }
+
+    .input-search-res-pro {
+        position: absolute;
+        top: 15px;
+        height: 40px;
+        z-index: 1;
+        margin-left: 10px;
+    }
+
+    .icon-search-res-ad {
+        display: inline-block;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .wrap-search-quantity {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .wrap-search-quantity {
+        margin-left: 0;
+        margin-top: 10px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .wrap-search-quantity {
+        display: block;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header-ad-left input {
+        width: 60%;
+    }
+
+    .createPro-and-title {
+        flex-wrap: wrap;
+    }
+
+    .createPro-and-title input {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .filter-discount-pro-page-ad {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrap-search-quantity select {
+        margin-left: 0;
+    }
+
+    .title-search-quantity {
+        display: none;
+    }
+}

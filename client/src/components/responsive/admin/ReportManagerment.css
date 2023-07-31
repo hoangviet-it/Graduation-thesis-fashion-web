@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1300px) {
+    .table-rep-user-detail {
+        z-index: 1002;
+    }
+}
+
+@media only screen and (max-width: 1255px) {
+    .btn-refresh-page-time {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .table-report-ad,
+    .detail-report-ord {
+        width: calc(100% - 40px);
+    }
+
+    .th-table-report-ad {
+        display: none;
+    }
+
+    .td-table-report-ad {
+        display: block;
+    }
+
+    .th-table-respon-report {
+        display: inline-block;
+        font-weight: 500;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .wrap-container-report-mana-ad {
+        margin-left: -23%;
+    }
+
+    .table-report-pro-detail {
+        width: 80%;
+        height: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        top: calc(50vh - 130px);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .tt-cap-select-pro-rep {
+        margin-top: 10px;
+        display: block;
+    }
+
+    .btn-classify-user-ad input {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .th-table-report-ad {
+        display: none;
+    }
+
+    .td-table-report-ad {
+        display: block;
+    }
+
+    .th-table-respon-report {
+        display: inline-block;
+        font-weight: 500;
+        margin-right: 10px;
+    }
+
+    .detail-report-ord table tr {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .detail-report-ord table tr td {
+        border: unset;
+    }
+
+    .true-detail-pro-ord-report {
+        width: 80%;
+    }
+}

@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1170px) {
+    .container-category-mana-ad {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .container-cate-mana-ad {
+        margin-left: 10px;
+    }
+
+    .table-cate-pro-ad {
+        margin-right: 10px;
+        width: 60%;
+    }
+
+    .form-create-cate-ad {
+        width: 40%;
+        text-align: center;
+    }
+
+    .img-icon {
+        margin-top: 5px;
+    }
+
+    .delete-ic-mana {
+        margin-left: 0;
+    }
+
+    .upload-img-cate {
+        width: 100%;
+    }
+
+    .form-create-cate-ad input {
+        width: 80%;
+        margin: auto;
+        margin-left: 0;
+        transform: none;
+    }
+
+    .select-object-cate {
+        width: 80%;
+    }
+
+    .btn-cre-and-upd-ad-cate {
+        margin-left: 0;
+        transform: none;
+    }
+
+    .btn-close-udate-cate-ad {
+        display: inline-block;
+        margin-left: 0;
+        transform: translateX(0);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container-cate-mana-ad {
+        margin-left: -20%;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .table-cate-pro-ad table tr td,
+    .table-cate-pro-ad table tr th {
+        font-size: 0.85rem;
+    }
+
+    .container-category-mana-ad {
+        display: block;
+    }
+
+    .table-cate-pro-ad {
+        width: 100%;
+    }
+
+    .form-create-cate-ad {
+        position: absolute;
+        top: 185px;
+        background-color: #fff;
+        left: -120%;
+        transition: ease-in-out 0.3s;
+    }
+
+    .btn-add-category {
+        display: inline-block;
+        margin-right: 0;
+    }
+
+    .close-form-add-cate {
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: red;
+        font-weight: 500;
+        border: 2px solid #bbb;
+        border-radius: 50%;
+        padding: 2px 8px;
+        cursor: pointer;
+        background-color: #fff;
+    }
+
+    .form-create-cate-ad h5 {
+        font-size: 1rem;
+    }
+
+    .close-form-add-cate:hover {
+        background-color: #bbb;
+        color: #fff;
+    }
+
+    .btn-objectCate {
+        margin-right: 10px;
+    }
+
+    .wrap-btn-cate-ad {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .form-create-cate-ad {
+        width: 70%;
+    }
+}

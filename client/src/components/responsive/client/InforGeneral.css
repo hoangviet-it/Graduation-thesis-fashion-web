@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1169px) {
+    .container-policy,
+    .container-intro {
+        width: 100%;
+        padding: 0 20px;
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container-intro,
+    .container-policy {
+        margin-top: 20px;
+    }
+}

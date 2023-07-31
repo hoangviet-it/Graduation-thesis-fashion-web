@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1170px) {
+    .wrap-dashboard-ad,
+    .chart,
+    .chartCircle {
+        width: 100%;
+    }
+
+    .wrap-dashboard-ad {
+        width: 100%;
+    }
+
+    .wrap-chart {
+        flex-wrap: wrap;
+    }
+
+    .report-all-ad {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .item-report-all-ad {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .wrap-dashboard-ad {
+        margin-left: -12%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .highcharts-subtitle {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .title-page-admin {
+        font-size: 25px;
+    }
+}
