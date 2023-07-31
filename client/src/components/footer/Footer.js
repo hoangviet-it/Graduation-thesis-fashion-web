@@ -57,7 +57,7 @@ export default function Footer() {
                         <h5>SẢN PHẨM MỚI NHẤT</h5>
                         <ul>
                             {
-                                products.map((pro, index)=>{
+                                products&&products.map((pro, index)=>{
                                     if(index<4){
                                         return <Link to={`/detail/${pro._id}`} key={pro._id}><li><img className="icon-dot" src={Dot} alt="" width="7px" />  {pro.title} -
                                         &nbsp;{pro.price.toLocaleString("en")}<u>đ</u></li></Link>
