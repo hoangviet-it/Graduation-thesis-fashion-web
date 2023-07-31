@@ -119,10 +119,16 @@ export default function HomePage() {
 
     // đưa sản phẩm khuyến mãi từ products vào mảng discount
     useEffect(() =>{
-        const disC = productsAll.filter((pro) =>{
-            return (pro.discount>0)
-        })
-        setDiscount(disC)
+        const handle = ()=>{
+            const fromDb = undefined
+            productsAll = fromDb || []
+
+            const disC = productsAll.filter((pro) =>{
+                return (pro.discount>0)
+            })
+            setDiscount(disC)
+        }
+        handle()
     }, [productsAll])
 
     // xử lý ẩn hiện nút back to top khi cuộn chuột và header fixed
