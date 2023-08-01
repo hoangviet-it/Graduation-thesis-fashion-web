@@ -328,7 +328,7 @@ export default function HomePage() {
 
                 <div className="new-product-hp" style={!NewAnDiscPro?{display:'flex'}:{display:'none'}}>
                     {
-                        products&&products.map((product, index) =>{
+                        products.map((product, index) =>{
                             if(index<=3) {
                                 return <ProductItem key={product._id} product={product} />
                             }
@@ -338,7 +338,7 @@ export default function HomePage() {
 
                 <div className="discount-product-hp" style={NewAnDiscPro?{display:'flex'}:{display:'none'}}>
                     {
-                        productBuyMany&&productBuyMany.map((discount, index) =>{
+                        productBuyMany.map((discount, index) =>{
                             if(index<4) {
                                 return <ProductItem key={discount._id} product={discount}/>
                             }
@@ -352,7 +352,7 @@ export default function HomePage() {
 
                 <div className="category-homepage" data-aos="fade-left" data-aos-duration="1000">
                     {
-                        categories&&categories.map(cate=>{
+                        categories.map(cate=>{
                             return <span key={cate._id} className="wrap-category-homePage" style={!checkNextPrev?styleNext:stylePrev} >
                                 <img src={cate.images.url} alt='' />
                                 <p className="name-cate-slide">

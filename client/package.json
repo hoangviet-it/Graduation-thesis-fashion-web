@@ -49,6 +49,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://graduation-thesis-fashion-web.vercel.app",
-  "homepage": "https://graduation-thesis-fashion-web-shop.vercel.app/"
+  "proxy": "https://localhost:5000"
 }
