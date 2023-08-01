@@ -352,7 +352,7 @@ export default function HomePage() {
 
                 <div className="category-homepage" data-aos="fade-left" data-aos-duration="1000">
                     {
-                        categories.map(cate=>{
+                        categories&&categories.map(cate=>{
                             return <span key={cate._id} className="wrap-category-homePage" style={!checkNextPrev?styleNext:stylePrev} >
                                 <img src={cate.images.url} alt='' />
                                 <p className="name-cate-slide">
