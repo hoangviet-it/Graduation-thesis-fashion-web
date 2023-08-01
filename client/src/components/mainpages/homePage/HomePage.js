@@ -338,7 +338,7 @@ export default function HomePage() {
 
                 <div className="discount-product-hp" style={NewAnDiscPro?{display:'flex'}:{display:'none'}}>
                     {
-                        productBuyMany.map((discount, index) =>{
+                        productBuyMany&&productBuyMany.map((discount, index) =>{
                             if(index<4) {
                                 return <ProductItem key={discount._id} product={discount}/>
                             }
