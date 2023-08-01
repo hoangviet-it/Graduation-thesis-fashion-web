@@ -1,0 +1,14 @@
+.container-policy {
+    width: 1170px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.content-policy {
+    margin-top: 30px;
+}
+
+.content-policy h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}

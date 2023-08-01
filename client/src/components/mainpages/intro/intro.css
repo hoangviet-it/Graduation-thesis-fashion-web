@@ -1,0 +1,49 @@
+.container-intro {
+    max-width: 1170px;
+    margin: auto;
+    margin-top: 40PX;
+    text-align: justify;
+    line-height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px #bbb;
+    padding: 0px 20px 20px 20px;
+}
+
+.container-intro h4 {
+    color: #009900;
+}
+
+.container-intro h3 {
+    color: #FF6600;
+    margin-top: -20px;
+}
+
+.content1-intro {
+    display: flex;
+    margin-top: 30px;
+    width: 900px;
+    margin: auto;
+}
+
+.content1-intro img {
+    width: 400px;
+}
+
+.item2-content1 {
+    margin-left: 25px;
+}
+
+.content2-intro {
+    margin-top: 30px;
+}
+
+.content-intro-page img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.content-intro-page h1 {
+    text-align: center;
+    margin-top: 10px;
+}

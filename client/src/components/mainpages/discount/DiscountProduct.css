@@ -1,0 +1,47 @@
+
+.row-discount {
+    border-bottom: 1px solid #bbb;
+    padding: 20px 0;
+}
+
+.row-discount a {
+    text-decoration: none;
+}
+
+.row-discount:hover {
+    margin-left: 20px;
+    transition: linear 0.3s;
+}
+
+.item-discount {
+    display: flex;
+    color: #000;
+}
+
+.item-discount img {
+    width: 100px;
+    height: 100%;
+}
+
+.item-discount span {
+    margin-left: 15px;
+}
+
+.item-discount p {
+    margin-bottom: 3px;
+}
+
+.title-dis {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+}
+
+.price-dis {
+    color: orangered;
+    font-weight: 600;
+}
+
+.price-old {
+    color: #888;
+}

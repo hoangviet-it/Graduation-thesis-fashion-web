@@ -1,0 +1,429 @@
+:root {
+    --color-main: #7ec522;
+}
+
+.item-tt-line-ord-ad {
+    width: 220px;
+}
+
+.container-ord-mana-ad {
+    padding-bottom: 70px;
+}
+
+.note-mana-ord {
+    margin-top: 10px;
+}
+
+.container-ord-mana-ad table {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.container-ord-mana-ad table tr {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.container-ord-mana-ad table .row-table-ord-ad:hover {
+    background-color: rgb(249, 249, 249);
+}
+
+.container-ord-mana-ad table tr th {
+    padding: 0px 0px 15px 0px;
+    text-align: center;
+}
+
+.container-ord-mana-ad table tr td {
+    padding: 15px 0;
+}
+
+.close-update-status-ord-ad {
+    position: fixed;
+    width: 350px;
+    height: 210px;
+    top: -1000px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    text-align: center;
+    transition: linear 0.3s;
+}
+
+.update-status-ord-ad {
+    background-color: #fff;
+    box-shadow: 0px 0px 6px #aaa;
+    border-radius: 5px;
+    position: fixed;
+    width: 350px;
+    height: 240px;
+    top: 50vh;
+    transform: translateY(-50%);
+    left: calc(50% - 175px);
+    padding: 20px;
+    text-align: center;
+    transition: linear 0.3s;
+    z-index: 1000;
+}
+
+.wrap-form-update-ord {
+    border: 1px solid #aaa;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.update-status-ord-ad h5 {
+    border-bottom: 2px solid var(--color-main);
+    padding-bottom: 10px;
+}
+
+.update-status-ord-ad select {
+    outline: none;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    height: 34px;
+    font-size: 15px;
+    margin: 10px 20px 10px 0;
+}
+
+.btn-update-status-ord {
+    background-color: #00cc00;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.btn-export-stickers {
+    background-color: #0d9a4c;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px -4px 4px #0a6f37 inset;
+}
+
+.btn-export-stickers:hover {
+    background-color: #10b55a;
+}
+
+.btn-update-status-ord:hover {
+    background-color: #02d802;
+}
+
+.btn-back-detail-ord-ad {
+    box-shadow: 0px -4px 4px #026aaf inset;
+}
+
+.btn-close-update-sta-ord {
+    background-color: #3e3eff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-close-update-sta-ord:hover {
+    background-color: #5a5afe;
+}
+
+.filter-status-ord-ad {
+    /* flex: 1; */
+    margin-left: 50px;
+}
+
+.filter-status-ord-ad select {
+    outline: none;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 0 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.detail-order-mana-ad {
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.content-detail-ord-ad {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inf-detail-ord-ad {
+    box-shadow: 0px 0px 6px #aaa;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.inf-detail-ord-ad span {
+    font-weight: 500;
+}
+
+.table-pro-detail-prrd-ad {
+    box-shadow: 0px 0px 6px #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.table-pro-detail-prrd-ad table {
+    width: 100%;
+}
+
+.table-pro-detail-prrd-ad table tr td {
+    padding: 0 20px;
+    border-bottom: 1px solid #bbb;
+}
+
+.update-sta-ord-ad {
+    margin-left: 60px;
+    margin-right: 20px;
+    font-weight: 500;
+    background-color: #00cc00;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px -3px 3px #01a501 inset;
+}
+
+.update-sta-ord-ad:hover {
+    background-color: #02e202;
+}
+
+.tt-and-btn-detail-upd-ad {
+    display: flex;
+    align-items: center;
+}
+
+.loadmore-ord-ad {
+    margin-top: 20px;
+}
+
+.createPro-and-title input {
+    height: 40px;
+    width: 500px;
+    outline: none;
+    border: 2px solid var(--color-main);
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: -5px;
+    margin-left: 30px;
+}
+
+.searchUserOrd {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.searchUserOrd input {
+    width: 150px;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 4px 10px;
+    font-size: 0.9rem;
+}
+
+.btn-search-ord-user {
+    margin-left: 55px;
+    font-weight: 500;
+}
+
+.tabar-order {
+    display: flex;
+    justify-content: start;
+}
+
+.tickNewOrd {
+    font-weight: bold;
+}
+
+.bg-disa-black::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: 900;
+}
+
+.notify-not-found-pro-mana {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-detail-order-ad {
+    background-color: #fff;
+    border: 2px solid #00cc00;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 2px 10px 6px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-detail-order-ad:hover {
+    background-color: #03e803;
+    color: #fff;
+}
+
+.btn-detail-order-ad:active {
+    background-color: #00cc00;
+}
+
+.btn-list-need-pack {
+    position: absolute;
+    right: 120px;
+    margin-top: -30px;
+    background-color: #00cc00;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0px -4px 4px #01a501 inset;
+}
+
+.btn-list-need-pack:hover {
+    box-shadow: 0px 0px 4px #bbb;
+}
+
+.list-need-pack-ordAd h5 {
+    margin-top: 15px;
+}
+
+.list-need-pack-ordAd table {
+    margin-top: 40px;
+}
+
+.btn-back-orders-listAll-ad {
+    position: absolute;
+    right: 40px;
+    background-color: #3e3eff;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px -4px 4px #3434d0 inset;
+}
+
+.btn-back-orders-listAll-ad:hover {
+    background-color: #6e6efb;
+}
+
+.btn-export-excel-ad {
+    position: absolute;
+    right: 120px;
+    background-color: #0d9a4c;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px -4px 4px #0a6f37 inset;
+}
+
+.btn-export-excel-ad:hover {
+    color: #fff;
+    background-color: #10b55a;
+}
+
+.btn-update-stt-delivering {
+    background-color: #00cc00;
+    color: #fff;
+    position: absolute;
+    right: 270px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 3.5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px -4px 4px #01a501 inset;
+}
+
+.btn-update-stt-delivering:hover {
+    background-color: #02e702;
+}
+
+.fillter-day-update-list-pack {
+    position: absolute;
+    right: 390px;
+}
+
+.fillter-day-update-list-pack span {
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.fillter-day-update-list-pack select {
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.list-need-pack-empty {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.deadline-order-ad {
+    margin-left: 30px;
+}
+
+.deadline-order-ad span {
+    font-weight: 500;
+}
+
+.btn-list-delivery {
+    right: 320px;
+    background-color: #00FF99;
+    color: #555;
+    box-shadow: 0px -4px 4px #01d27f inset;
+}
+
+.btn-update-list-delivery {
+    background-color: #00cc00;
+    color: #fff;
+    box-shadow: 0px -4px 4px #01a501 inset;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.btn-update-list-delivery:hover {
+    background-color: #03e403;
+}
+
+.col-address-list-deli {
+    width: 300px;
+}
+
+.address-list-delivering {
+    width: 300px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.th-tablel-res-ord,
+.th-table-respon-deli,
+.th-table-respon-detai-ord-ad {
+    display: none;
+}

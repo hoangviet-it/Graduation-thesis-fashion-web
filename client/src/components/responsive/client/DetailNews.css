@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1169px) {
+    .container-detail-news {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container-detail-news {
+        padding: 0 20px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container-detail-news {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content-detail-news img {
+        width: 100%;
+    }
+
+    .content-detail-news {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

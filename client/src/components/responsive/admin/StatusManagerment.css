@@ -1,0 +1,80 @@
+@media only screen and (max-width: 992px) {
+    .container-status-mana-ad,
+    .ttline-status-mana-list {
+        margin-left: -20%;
+        margin-right: 20px;
+    }
+
+    .btn-mana-sta,
+    .element-status-order {
+        margin-left: 20px;
+    }
+
+    .btn-mana-sta {
+        margin: auto;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-add-status-res {
+        display: inline-block;
+        background-color: #00cc33;
+        font-weight: 500;
+        padding: 5px 10px;
+        margin-left: 20px;
+        border-radius: 5px;
+        box-shadow: 4px 4px 5px #bbb;
+        color: #fff;
+        cursor: pointer;
+        position: absolute;
+        top: 158px;
+        right: 40px;
+    }
+
+    .btn-add-status-res:focus {
+        background-color: #00cc33;
+    }
+    
+    .btn-add-status-res:hover {
+        background-color: #04e33c;
+        box-shadow: 0px 0px 5px #bbb;
+    }
+
+    .form-create-sta-ad {
+        transform: translateX(-50%);
+    }
+
+    .close-form-add-sta-ad {
+        display: inline-block;
+        position: absolute;
+        right: -12px;
+        top: -12px;
+        font-weight: 500;
+        color: red;
+        border: 2px solid #bbb;
+        padding: 1px 8px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+
+    .close-form-add-sta-ad:hover {
+        background-color: #bbb;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .btn-add-status-res {
+        position: unset;
+        margin: 0 0 10px 0;
+    }
+
+    .ttline-status-mana-list {
+        font-size: 1rem;
+        width: 200px;
+        
+    }
+}

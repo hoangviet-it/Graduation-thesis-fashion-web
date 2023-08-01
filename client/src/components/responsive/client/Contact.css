@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1024px) {
+    .container-contact {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .inf-contact {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container-contact {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .inf-contact {
+        flex-wrap: wrap;
+    }
+
+    .item-contact {
+        width: 100%;
+    }
+}
